@@ -1,2 +1,2 @@
 # whac_a_mole_
-[VIEW]
+[view](https://mirecek2011cz.github.io/whac_a_mole_/)
