@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(78, 178, 105);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.heading {
+  margin: 2em 0 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.heading h1 {
+  font-size: 6em;
+  margin: 1em 0 1em;
+  font-family: cursive;
+  color: black;
+}
+
+.heading p {
+  font-size: 3em;
+  text-align: center;
+}
+
+.hole {
+  position: relative;
+  height: 60px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+}
+
+.holes {
+  margin: 5em 0 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3em;
+}
+
+.button button {
+  height: 50px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 2em;
+  margin: 2em 1em 0;
+  color: black;
+  font-size: 1.5em;
+  background-color: rgb(78, 178, 105);
+}
+
+.mole {
+  position: absolute;
+  z-index: 1;
+  height: 90px;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
